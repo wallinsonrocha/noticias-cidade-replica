@@ -1,0 +1,8 @@
+header{
+    background-image: url('../../imagens-necessarias-site-noticias-cidade/imagens/fundo.png');
+    background-position: bottom;    
+    
+    margin: 0;
+    
+    display: grid;
+}

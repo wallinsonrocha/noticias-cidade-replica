@@ -1,0 +1,55 @@
+@media only screen and (max-width:768px) {
+    #carousel{
+        width: auto;
+        overflow-x: hidden;
+    }
+    #carousel div{
+        width: 400%;
+        height: 50vh;
+
+        display: flex;
+    }
+
+    #slider{
+        transition: all 0.2s ease;
+    }
+    #slider div{
+        display: flex;        
+        justify-content: center;
+        align-items: flex-end;
+    }
+    #slider h1{
+        background-color: #fff;
+        padding: 15px;
+        width: 100%;
+
+        opacity: 0.8;
+    }
+
+    #buttons{
+        display: flex;
+
+        justify-content: center;        
+
+        gap: 25px;
+        background-color: #fff;
+    }
+    #buttons button{
+        background-color: rgba(0, 0, 0, 0.85);
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+
+        padding: 15px;
+        margin: 10px;
+        border-radius: 15px;
+        border: none;
+
+        width: 100%;
+        transition: all .2s ease-out;
+    } 
+    #buttons button:active{
+        transform: translateY(3px);
+        background-color: #000;
+    }
+}

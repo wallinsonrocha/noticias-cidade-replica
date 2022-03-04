@@ -1,0 +1,10 @@
+/* DEFAULT */
+@import url('default/header.css');
+@import url('default/body.css');
+@import url('default/main.css');
+@import url('default/article.css');
+@import url('default/aside.css');
+
+/* MOBILE */
+@import url('mobile/header-mobile.css');
+@import url('mobile/main-mobile.css');

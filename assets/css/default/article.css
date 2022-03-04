@@ -1,0 +1,38 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+article h1{
+    margin-bottom: 20px;
+
+    background-color: #00f;
+    padding: 2px;
+
+    color: #fff;
+    font-weight: bold;
+}
+
+section article{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+
+    justify-content: center;
+}
+
+article img{
+    max-width:350px;
+    margin: 5px auto;    
+}
+
+.content-article{
+    display: flex;
+    column-gap: 10px;
+    padding: 5px;
+}
+.content-article img{
+    max-height: 80px;
+}
