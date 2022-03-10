@@ -8,7 +8,9 @@
 /* MOBILE */
 @import url('mobile/header-mobile.css');
 @import url('mobile/main-mobile.css');
+@import url('mobile/display-none.css');
 
 /* DESKTOP */
-@import url('desktop/display-none.css');
 @import url('desktop/main.css');
+@import url('desktop/header.css');
+@import url('desktop/display-none.css');

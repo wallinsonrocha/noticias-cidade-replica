@@ -16,10 +16,11 @@ article h1, #entrevistas h1, #news h1{
 section article, #entrevistas, #news{
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 250px;
 
     flex-wrap: wrap;
 }
+
 #news label{
     text-align: center;
 }
