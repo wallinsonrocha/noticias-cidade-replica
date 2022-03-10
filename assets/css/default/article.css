@@ -1,11 +1,9 @@
-section{
+section, #entrevistas{
     display: flex;
     flex-wrap: wrap;
 }
 
-
-
-article h1{
+article h1, #entrevistas h1, #news h1{
     margin-bottom: 20px;
 
     background-color: #00f;
@@ -15,12 +13,18 @@ article h1{
     font-weight: bold;
 }
 
-section article{
+section article, #entrevistas, #news{
     display: flex;
     flex-direction: column;
     max-width: 400px;
 
-    justify-content: center;
+    flex-wrap: wrap;
+}
+#news label{
+    text-align: center;
+}
+#news input[type=email]{
+    width: 75%;
 }
 
 article img{
@@ -35,4 +39,16 @@ article img{
 }
 .content-article img{
     max-height: 80px;
+}
+
+#entrevistas li{
+    border-bottom: 1px solid #000;
+    margin: 15px;
+
+    list-style: none;
+}
+
+#news input[type=submit]{
+    padding: 5px;
+    margin: 10px 50px;
 }

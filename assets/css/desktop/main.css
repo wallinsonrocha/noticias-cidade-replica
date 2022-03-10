@@ -1,0 +1,21 @@
+@media only screen and (min-width: 769px) {
+    #area{
+        display: grid;
+        margin-left: 20%;
+        margin-top: 25px;
+        grid-template-columns: 1fr 1fr;
+
+        gap: 50px;
+    }
+
+    section{
+        gap: 50px;
+    }
+    section article{
+        max-width: 200px;
+    }
+    article img{
+        max-width:90%;
+        margin: 5px auto;    
+    }
+}
