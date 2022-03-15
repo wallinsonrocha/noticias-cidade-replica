@@ -16,7 +16,6 @@ article h1, #entrevistas h1, #news h1{
 section article, #entrevistas, #news{
     display: flex;
     flex-direction: column;
-    max-width: 250px;
 
     flex-wrap: wrap;
 }
@@ -41,15 +40,50 @@ article img{
 .content-article img{
     max-height: 80px;
 }
-
-#entrevistas li{
-    border-bottom: 1px solid #000;
-    margin: 15px;
-
-    list-style: none;
+.content-article div{
+    overflow: hidden;
 }
+.content-article div p{
+    max-width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Entrevistas check */
+    #entrevistas li{
+        border-bottom: 1px solid #000;
+        margin: 15px;
+
+        list-style: none;
+    }
+    #entrevistas a{
+        text-decoration: none;
+        color: #000;
+    }
+    #entrevistas a:hover{
+        color: rgb(150, 150, 150);
+    }
+    #entrevistas a::before{
+        display: none;
+
+        content: '\2713';
+        margin-right: 5px;
+    }
+    #entrevistas a:hover::before{
+        display: inline;
+    }
+
 
 #news input[type=submit]{
     padding: 5px;
     margin: 10px 50px;
+
+    border: none;
+    background-color: rgb(180, 16, 16);
+    color: #fff;
+}
+#news input[type=submit]:hover{
+    background-color: rgb(129, 10, 10);
+    color: #000;
 }

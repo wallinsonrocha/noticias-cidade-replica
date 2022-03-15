@@ -2,4 +2,8 @@
     aside{
         width: 100px;
     }
+
+    section article, #entrevistas, #news{
+        max-width: 250px;
+    }
 }

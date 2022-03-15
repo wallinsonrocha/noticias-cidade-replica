@@ -1,0 +1,8 @@
+@media only screen and (max-width:768px) {
+    #detalhe-topo-desktop{
+        display: none;
+    }
+    #nav-desktop{
+        display: none;
+    }
+}
