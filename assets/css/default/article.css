@@ -49,6 +49,12 @@ article img{
     overflow: hidden;
     white-space: nowrap;
 }
+.content-article div h3{
+    max-width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
 
 /* Entrevistas check */
     #entrevistas li{
